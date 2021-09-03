@@ -1,3 +1,4 @@
+/* Top */
 .top-page {
   background-color: black;
   color: white;
@@ -17,4 +18,16 @@ h1 {
 }
 h2 {
   font-size: 25px;
+}
+/* Middle */
+.middle-page {
+  background-image: url("/images/doodles-background.png.png");
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-title {
+  text-align: center;
+  font-size: 30px;
 }
