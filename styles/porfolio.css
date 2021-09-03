@@ -29,10 +29,15 @@ h2 {
   background-size: cover;
 }
 .project-title {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
   font-size: 35px;
   color: white;
   padding-top: 20px;
-  text-decoration: underline;
-  font-weight: 600;
+  font-family: "Space Mono", monospace;
+  padding-bottom: 7px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.5px;
+  width: fit-content;
+  border-color: #faca3f;
 }
