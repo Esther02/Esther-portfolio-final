@@ -1,0 +1,20 @@
+.top-page {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.greeting-paragraph {
+  margin: 0;
+  font-weight: medium;
+  font-size: 30px;
+}
+h1 {
+  font-weight: medium;
+  font-size: 52px;
+}
+h2 {
+  font-size: 25px;
+}
