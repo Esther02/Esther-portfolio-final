@@ -1,6 +1,7 @@
 /* Top */
 .top-page {
-  background-color: black;
+  background: black;
+
   color: white;
   text-align: center;
   padding: 100px 0;
@@ -21,7 +22,7 @@ h2 {
 }
 /* Middle */
 .middle-page {
-  background-image: url("/images/doodles-background.png.png");
+  background-image: url("/images/doodles-background.png");
   padding-bottom: 100px;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,4 +31,6 @@ h2 {
 .project-title {
   text-align: center;
   font-size: 30px;
+  font-weight: 800px;
+  color: white;
 }
