@@ -59,8 +59,3 @@ window.onload = function () {
 };
 
 //Text to be introduced in HTML
-<span
-  class="txt-rotate"
-  data-period="2000"
-  data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'
-></span>;
