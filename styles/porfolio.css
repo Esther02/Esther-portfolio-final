@@ -1,11 +1,14 @@
+:root {
+  --yellow: #faca3f;
+}
+
 /* Top */
 .top-page {
   background: black;
-
-  color: white;
+  color: #19517f;
   text-align: center;
   padding: 100px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
 }
 
 .greeting-paragraph {
@@ -13,9 +16,14 @@
   font-weight: medium;
   font-size: 30px;
 }
+.robot {
+  margin-top: 25px;
+}
 h1 {
+  color: white;
   font-weight: medium;
   font-size: 52px;
+  font-family: "Poppins", sans-serif;
 }
 h2 {
   font-size: 25px;
@@ -27,17 +35,66 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Space Mono", monospace;
+  color: #e0e0df;
 }
 .project-title {
   display: block;
   margin: 0 auto;
   font-size: 35px;
-  color: white;
-  padding-top: 20px;
-  font-family: "Space Mono", monospace;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
   border-bottom-style: solid;
   border-bottom-width: 3.5px;
   width: fit-content;
-  border-color: #faca3f;
+  border-color: var(--yellow);
+  padding-top: 20px;
+  margin-bottom: 150px;
+}
+.left-column {
+}
+.weatherphoto {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 25px;
+  
+}
+.launch {
+  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  color:#FACA3F;
+  width: fit-content;
+  display:block;
+  margin: 0 auto;
+}
+.launch:hover {
+    background:#FACA3F;
+    color:black;
+}
+
+.card {
+    background-color: #051F4A;
+    max-width: 300px;
+    padding: 16px;
+    padding-bottom: 24px;
+    
+.app-title {
+  font-size: 30px;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+  border-color: #FF78B4;
+  margin:auto;
+  margin-top: -15px;
+  
+}
+.paragraph-description {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+
 }
