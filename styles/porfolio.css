@@ -3,6 +3,7 @@
 }
 
 /* Top */
+
 .top-page {
   background: black;
   color: #19517f;
@@ -18,7 +19,9 @@
 }
 .robot {
   margin-top: 25px;
+  
 }
+
 h1 {
   color: white;
   font-weight: medium;
@@ -50,9 +53,50 @@ h2 {
   padding-top: 20px;
   margin-bottom: 150px;
 }
-.left-column {
-}
+
 .weatherphoto {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #284495;
+}
+.launch {
+  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  color: #faca3f;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 35px;
+  
+}
+.launch:hover {
+  background: #faca3f;
+  color: black;
+}
+
+.main-title {
+  font-size: 30px;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+  border-color: #ff78b4;
+  margin: auto;
+  margin-top: -15px;
+  padding-top: 40px;
+}
+.paragraph-description {
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.personal-website {
   width: 100%;
   height: auto;
   display: block;
@@ -60,41 +104,21 @@ h2 {
   margin: 20px 0;
   padding: 10px;
   border-radius: 25px;
-  
-}
-.launch {
-  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
-  color:#FACA3F;
-  width: fit-content;
-  display:block;
-  margin: 0 auto;
-}
-.launch:hover {
-    background:#FACA3F;
-    color:black;
+  background-color: #284495;
 }
 
-.card {
-    background-color: #051F4A;
-    max-width: 300px;
-    padding: 16px;
-    padding-bottom: 24px;
-    
-.app-title {
-  font-size: 30px;
-  padding-bottom: 3px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  width: fit-content;
-  border-color: #FF78B4;
-  margin:auto;
-  margin-top: -15px;
-  
-}
-.paragraph-description {
-    padding: 20px 0;
-    font-size: 20px;
-    text-align: center;
 
-}
+@media (max-width: 800px) {
+  .robot-column {
+    display: none;
+  }
+  .image {
+      display: none;
+  }
+  .project-title {
+      margin-bottom: 25px;
+  }
+  p {
+      margin: 10px 25px;
+  }
+  
