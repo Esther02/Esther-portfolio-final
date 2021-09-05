@@ -94,8 +94,8 @@ h2 {
   width: fit-content;
   border-color: #ff78b4;
   margin: auto;
-  margin-top: -20px;
-  padding-top: 40px;
+  margin-top: -40px;
+  padding-top: 10px;
 }
 .paragraph-description {
   padding: 20px 0;
@@ -105,8 +105,12 @@ h2 {
 .weather-row {
   margin-bottom: 100px;
 }
+.project-description {
+  padding-left: 60px;
+  padding-right: 60px;
+}
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .robot-column {
     display: none;
   }
@@ -121,5 +125,19 @@ h2 {
   }
   .weather-row {
     margin-bottom: 15px;
+  }
+  .main-title {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .main-title {
+    font-size: 19px;
+  }
+  .paragraph-description {
+    font-size: 12px;
+  }
+  .project-description {
+    padding: 10px;
   }
 }
