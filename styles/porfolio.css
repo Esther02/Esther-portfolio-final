@@ -85,7 +85,7 @@ h2 {
   width: fit-content;
   border-color: #ff78b4;
   margin: auto;
-  margin-top: -15px;
+  margin-top: -20px;
   padding-top: 40px;
 }
 .paragraph-description {
@@ -103,6 +103,9 @@ h2 {
   padding: 10px;
   border-radius: 25px;
   background-color: #284495;
+}
+.second-row {
+  padding-top: 20px;
 }
 
 @media (max-width: 1000px) {
