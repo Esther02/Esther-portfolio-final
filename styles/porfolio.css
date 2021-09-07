@@ -114,6 +114,10 @@ h2 {
 .esther {
   height: 70%;
 }
+/* Work Page */
+.cat-computer {
+  width: 70%;
+}
 
 @media (max-width: 1200px) {
   .robot-column {
