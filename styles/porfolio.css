@@ -3,6 +3,45 @@
 }
 
 /* Top */
+.logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fec272;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin-left: 140px;
+  margin-right: 80px;
+}
+body {
+  background-color: black;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 15px;
+  line-height: 35px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+nav a:hover,
+nav li.active a {
+  color: #ff78b4;
+  transition: all 100ms ease-in-out;
+}
 
 .top-page {
   background: black;
@@ -10,6 +49,13 @@
   text-align: center;
   padding: 160px 20px;
   font-family: "Space Mono", monospace;
+}
+.bottom-page {
+  background: black;
+  color: #19517f;
+  text-align: center;
+  padding: 120px 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .greeting-paragraph {
@@ -33,7 +79,7 @@ h2 {
 /* Middle */
 .middle-page {
   background-image: url("/images/doodles-background.png");
-  padding-bottom: 50px;
+  padding-bottom: 120px;
   background-position: top center;
   background-repeat: repeat;
   background-size: cover;
@@ -84,6 +130,19 @@ h2 {
 .launch:hover {
   background: #faca3f;
   color: black;
+}
+.hire-me {
+  border-radius: 5px;
+  background: #faca3f;
+  color: black;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding: 20px 50px;
+}
+.hire-me:hover {
+  background: #0a467f;
+  color: #faca3f;
 }
 
 .main-title {
@@ -153,5 +212,13 @@ h2 {
 @media (max-width: 1000px) {
   .esther {
     margin-top: 30px;
+  }
+  .logo {
+    display: none;
+  }
+  nav {
+    margin: 0;
+    padding: 20px 10px;
+    justify-content: center;
   }
 }
