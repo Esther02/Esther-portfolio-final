@@ -33,9 +33,9 @@ h2 {
 /* Middle */
 .middle-page {
   background-image: url("/images/doodles-background.png");
-  padding-bottom: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  background-position: top center;
+  background-repeat: repeat;
   background-size: cover;
   font-family: "Space Mono", monospace;
   color: #e0e0df;
