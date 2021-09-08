@@ -45,6 +45,10 @@ nav li.active a {
   color: #ff78b4;
   transition: all 100ms ease-in-out;
 }
+.logo:hover {
+  color: white;
+  transition: all 100ms ease-in-out;
+}
 
 .top-page {
   background: black;
@@ -181,6 +185,32 @@ h2 {
 /* Work Page */
 .cat-computer {
   width: 50%;
+}
+/* Footer */
+footer {
+  margin: 60px 0;
+}
+.email-address {
+  text-decoration: none;
+  color: rgb(233, 232, 232);
+  font-size: 24px;
+  text-align: center;
+}
+.email-address:hover {
+  color: #ff78b4;
+}
+footer .social-links a {
+  margin: 0 20px;
+  background: #c6d0d6;
+  color: #19517f;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #c6d0d6;
+  background: #19517f;
 }
 
 @media (max-width: 1200px) {
