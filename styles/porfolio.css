@@ -212,6 +212,12 @@ footer .social-links a:hover {
   color: #c6d0d6;
   background: #19517f;
 }
+footer h2 {
+  color: #19517f;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 @media (max-width: 1200px) {
   .robot-column {
