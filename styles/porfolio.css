@@ -57,6 +57,14 @@ nav li.active a {
   font-family: "Space Mono", monospace;
   text-align: center;
 }
+.top-page-about {
+  background: black;
+  color: #19517f;
+  padding: 80px 20px 0 20px;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+
 .bottom-page {
   background: black;
   color: #19517f;
@@ -174,6 +182,7 @@ h2 {
   padding: 20px 0 0 0;
   font-size: 18px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 .weather-row {
   margin-bottom: 100px;
@@ -185,7 +194,7 @@ h2 {
 }
 .software-icons i {
   margin: 0 20px;
-  color: #19517f;
+  color: #fec272;
   padding-bottom: 20px;
   font-size: 35px;
   transition: all 100ms ease-in-out;
@@ -193,8 +202,9 @@ h2 {
 
 /* About Page */
 .esther {
-  height: 70%;
+  height: 60%;
 }
+
 /* Work Page */
 .cat-computer {
   width: 50%;

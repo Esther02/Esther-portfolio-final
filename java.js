@@ -58,4 +58,8 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
-//Text to be introduced in HTML
+// message-link response
+function message(event) {
+  event.preventDefault();
+  alert("You are already there!😅");
+}
