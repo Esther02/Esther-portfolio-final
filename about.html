@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="This website shows information about me as well as the work that I have been doing. At the end of the website you can find ways to contact me."
+      content="This website shows information about Esther Carminatti as well as the work that I have been doing as a front-end developer. At the end of the website you can find ways to contact me."
     />
+
     <!--Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -38,44 +39,60 @@
     <link rel="stylesheet" href="styles/porfolio.css" />
     <script type="text/javascript" src="java.js"></script>
     <!--Starting Edition-->
-    <title>Esther Carminatti | Front-End Developer</title>
+    <title>Esther Carminatti | About me</title>
   </head>
   <body>
     <div class="container nav-container" id="nav-container2">
       <nav class="">
         <div><a class="logo" href="/">Esther Carminatti</a></div>
         <ul>
-          <li class="active"><a href="/"> Home</a></li>
-          <li><a href="/about.html"> About</a></li>
-          <li><a href="/index.html#project-title"> Work</a></li>
-          <li><a href="/index.html#lets-contact"> Contact</a></li>
+          <li><a href="/" title="homepage Esther"> Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="about Esther"> About</a>
+          </li>
+          <li>
+            <a href="/index.html#project-title" title="projects Esther">
+              Work</a
+            >
+          </li>
+          <li>
+            <a
+              href="/index.html#lets-contact"
+              title="contact information Esther"
+            >
+              Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
     <div class="top-page-about">
-      <div class="container" >
-        <div class="row" >
+      <div class="container">
+        <div class="row">
           <div class="col-md-6">
             <h1>Hi, I am Esther Carminatti</h1>
             <h2>Frontend Developer, based in London</h2>
             <p class="paragraph-description text-white">
               My journey into code started a few months ago. Out of curiosity, I
-              enrolled in SheCodes Basics and I have not stopped learning since! I
-              am currently looking for an oportunity to develop my skills even
-              further. My soft skills are being optimistic, empathetic and curious. In addition, I developed coaching and strategy building skills during my time as a primary school teacher.
+              enrolled in SheCodes Basics and I have not stopped learning since!
+              I am currently looking for an oportunity to develop my skills even
+              further. My soft skills are being optimistic, empathetic and
+              curious. In addition, I developed coaching and strategy building
+              skills during my time as a primary school teacher.
             </p>
             <a
               href="index.html#project-title"
               class="btn btn-dark launch"
               title="launch personal website"
+              title="button that goes back to the projects section"
               >My work</a
             >
           </div>
-          <div class="col-md-6" style="max-height: 500px;">
+          <div class="col-md-6" style="max-height: 500px">
             <img
               class="esther img-fluid"
               src="images/esther.png"
-              alt="photo of myself"
+              alt="photo of Esther Carminatti"
             />
           </div>
         </div>
@@ -87,29 +104,59 @@
             id="lets-contact"
             href="mailto:esthercarminatti@hotmail.com"
             class="email-address mb-5"
+            title="email address"
             >esthercarminatti@hotmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://twitter.com/MariaEsther002" target="_blank"
+          <a
+            href="https://twitter.com/MariaEsther002"
+            target="_blank"
+            title="twitter profile"
             ><i class="fab fa-twitter"></i
           ></a>
-          <a href="https://github.com/Esther02" target="_blank"
+          <a
+            href="https://github.com/Esther02"
+            target="_blank"
+            title="github profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.instagram.com/esthercarminatti2/" target="_blank"
+          <a
+            href="https://www.instagram.com/esthercarminatti2/"
+            target="_blank"
+            title="instagram profile"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
+        <p
+          class="text-center mt-5 text-secondary mb-0"
+          style="
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+              sans-serif;
+          "
+        >
+          This project was coded with <i class="far fa-heart"></i> by Esther
+          Carminatti, and it is
+          <a
+            class="text-light text-decoration-none"
+            href="https://github.com/Esther02/Esther-portfolio-final"
+            target="_blank"
+            >open sourced</a
+          >
+        </p>
       </footer>
       <div class="d-flex justify-content-center mb-5">
-   <a href="/about.html#nav-container2" class="arrow-up">
-  <span class="left-arm"></span>
-  <span class="right-arm"></span>
-  <span class="arrow-slide"></span>
-</a>
-</a>
-</div>
+        <a
+          href="/about.html#nav-container2"
+          class="arrow-up"
+          title="back to top"
+        >
+          <span class="left-arm"></span>
+          <span class="right-arm"></span>
+          <span class="arrow-slide"></span>
+        </a>
+      </div>
     </div>
   </body>
 </html>
