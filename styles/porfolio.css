@@ -232,7 +232,6 @@ footer .social-links a {
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
   color: #c6d0d6;
@@ -465,4 +464,23 @@ footer h2 {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Shiny icons and effects*/
+.software-icons .icon {
+  transition: all 0.5s ease;
+}
+.software-icons .icon:hover {
+  color: #fec272;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 15px #fec272;
+}
+
+.social-links a {
+  transition: all 0.5s ease;
+}
+.social-links a:hover {
+  transition: all 0.5s ease;
+  background: var(--deepblue);
+  text-shadow: 0 0 15px var(--deepblue);
 }
