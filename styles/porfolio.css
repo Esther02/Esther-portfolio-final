@@ -1,5 +1,7 @@
 :root {
   --yellow: #faca3f;
+  --pink: #ff78b4;
+  --deepblue: #19517f;
 }
 
 /* Top */
@@ -42,7 +44,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: #ff78b4;
+  color: var(--pink);
   transition: all 100ms ease-in-out;
 }
 .logo:hover {
@@ -52,14 +54,14 @@ nav li.active a {
 
 .top-page {
   background: black;
-  color: #19517f;
+  color: var(--deepblue);
   padding: 100px 20px;
   font-family: "Space Mono", monospace;
   text-align: center;
 }
 .top-page-about {
   background: black;
-  color: #19517f;
+  color: var(--deepblue);
   padding: 80px 20px 0 20px;
   font-family: "Space Mono", monospace;
   text-align: center;
@@ -67,7 +69,7 @@ nav li.active a {
 
 .bottom-page {
   background: black;
-  color: #19517f;
+  color: var(--deepblue);
   text-align: center;
   padding: 120px 20px;
   font-family: "Poppins", sans-serif;
@@ -128,7 +130,7 @@ h2 {
   margin: 0 auto;
   padding: 5px;
   border-radius: 25px;
-  background-color: #19517f;
+  background-color: var(--deepblue);
 }
 .personal-website {
   width: 70%;
@@ -137,25 +139,25 @@ h2 {
   margin: 0 auto;
   padding: 5px;
   border-radius: 25px;
-  background-color: #19517f;
+  background-color: var(--deepblue);
 }
 .launch {
   box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  border-color: #faca3f;
-  color: #faca3f;
+  border-color: var(--yellow);
+  color: var(--yellow);
   display: block;
   margin: auto;
   width: fit-content;
   padding: 15px 35px;
 }
 .launch:hover {
-  background: #faca3f;
+  background: var(--yellow);
   color: black;
 }
 .hire-me {
   border-radius: 5px;
-  background: #faca3f;
+  background: var(--yellow);
   color: black;
   display: block;
   margin: auto;
@@ -163,8 +165,8 @@ h2 {
   padding: 20px 50px;
 }
 .hire-me:hover {
-  background: #0a467f;
-  color: #faca3f;
+  background: var(--deepblue);
+  color: var(--yellow);
 }
 
 .main-title {
@@ -173,7 +175,7 @@ h2 {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   width: fit-content;
-  border-color: #ff78b4;
+  border-color: var(--pink);
   margin: auto;
   margin-top: -40px;
   padding-top: 10px;
@@ -221,12 +223,12 @@ footer {
   text-align: center;
 }
 .email-address:hover {
-  color: #ff78b4;
+  color: var(--pink);
 }
 footer .social-links a {
   margin: 0 20px;
   background: #c6d0d6;
-  color: #19517f;
+  color: var(--deepblue);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -234,10 +236,10 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: #c6d0d6;
-  background: #19517f;
+  background: var(--deepblue);
 }
 footer h2 {
-  color: #19517f;
+  color: var(--deepblue);
   font-family: "Space Mono", monospace;
   text-align: center;
   margin-bottom: 30px;
@@ -384,7 +386,7 @@ footer h2 {
   height: 40px;
   width: 40px;
   display: block;
-  border: 1px solid #666;
+  border: 1px solid var(--deepblue);
   position: relative;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
@@ -396,7 +398,7 @@ footer h2 {
   top: -100%;
   width: 100%;
   height: 100%;
-  background: #666;
+  background: #2b3536;
   position: absolute;
   display: block;
   z-index: 0;
@@ -414,7 +416,7 @@ footer h2 {
 }
 .left-arm:after {
   content: "";
-  background-color: #666;
+  background-color: var(--deepblue);
   width: 20px;
   height: 1px;
   display: block;
@@ -437,7 +439,7 @@ footer h2 {
 }
 .right-arm:after {
   content: "";
-  background-color: #666;
+  background-color: var(--deepblue);
   width: 20px;
   height: 1px;
   display: block;
