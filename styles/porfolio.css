@@ -202,7 +202,8 @@ h2 {
 
 /* About Page */
 .esther {
-  height: 60%;
+  height: 90%;
+  width: auto;
 }
 
 /* Work Page */
@@ -272,6 +273,12 @@ footer h2 {
   .project-description {
     padding: 10px;
   }
+  footer h2 {
+      font-size: 18px;
+  }
+  footer .email-address {
+      font-size: 20px;
+  }
 }
 @media (max-width: 1000px) {
   .esther {
@@ -287,7 +294,6 @@ footer h2 {
   }
 }
 
-
 .scroll-up {
   height: 40px;
   width: 40px;
@@ -301,8 +307,8 @@ footer h2 {
   stroke: #aaa;
   fill: none;
   stroke-dasharray: 20;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 .scroll-up:hover svg line.top {
   -webkit-transform: translateX(-40px);
@@ -365,7 +371,7 @@ footer h2 {
   z-index: -1;
 }
 .scroll-up:hover {
-  transition: all .1s;
+  transition: all 0.1s;
 }
 .scroll-up:hover .left-bar:after {
   transform: rotate(-10deg);
@@ -442,7 +448,7 @@ footer h2 {
 }
 
 .arrow-up:hover {
-  transition: all .1s;
+  transition: all 0.1s;
 }
 .arrow-up:hover .left-arm:after {
   transform: rotate(-10deg);
@@ -451,7 +457,7 @@ footer h2 {
   transform: rotate(10deg);
 }
 .arrow-up:hover .arrow-slide {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   transform: translateY(200%);
 }
 
